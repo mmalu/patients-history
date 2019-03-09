@@ -42,9 +42,23 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <section class="header">
-      <h2 class="title">A dead simple, patient's history.</h2>
+      <h2 class="title">An accurate and complete, patient's history.</h2>
+      <!-- TODO: Help them download the Dropbox of files here -->
       <a class="button button-primary" href="https://github.com/dhg/Skeleton/releases/download/2.0.4/Skeleton-2.0.4.zip" onClick="_gaq.push(['_trackEvent', 'skeleton', 'download'])">Download</a>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/feather.svg">
+          Kamal. Grandfather. 54 years old.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/pens.svg">
+          Mayank. Father. 29 years old.
+        </div>
+        <div class="four columns value-prop">
+          <img class="value-img" src="images/watch.svg">
+          Arish. Baby Boy. 20 days old.
+        </div>
+      </div>
     </section>
 
     <div class="navbar-spacer"></div>
@@ -80,10 +94,19 @@
       </div>
     </nav>
 
+    <!-- TODO: Add Opinions and Collabaration. -->
+
     <!-- Now -->
     <div class="docs-section" id="now">
       <h6 class="docs-header">Now</h6>
-      <p>TBD.</p>
+      <div class="row docs-example">
+        <ul>
+          <li>Still some numbing sensaton. not recovered completely. Not like before. Accelerator Slip.</li>
+          <li>Some pull and pain in the feet.</li>
+          <li>Great recovery however.</li>
+        </ul>
+        <p><em>Man, only doctors can understand this well and ask the right questions. The way patient describe is so ambiguous and vague. Plus, I had no clue what they were saying. Doctor's got to share their private file. They got to help patients articulate. It's in patients best interest.</em></p>
+      </div>
     </div>
 
     <!-- Ongoing -->
@@ -184,37 +207,57 @@
       <h6 class="docs-header">Family History</h6>
       <div class="row docs-example">
         <ul>
-          <li>TBD</li>
+          <li>Father had a <strong>Paralysis attack</strong> but he recoverd completely.</li>
+          <li>Father had <strong>Blood Pressure</strong>.</li>
+          <li>Mother had no diseasers or disorders whatsoever.</li>
+          <li>Father lived <strong>78</strong> <em>(1921 - 1989)</em> years. Died due to <strong>Heart Failure</strong>.</li>
+          <li>Mother lived <strong>93</strong> <em>(1925 - 2008)</em> years. Died due to <strong>Old Age</strong>.</li>
         </ul>
+      </div>
     </div>
-  </div>
-
-  <!-- Reports -->
-  <div class="docs-section" id="reports">
-    <h6 class="docs-header">Reports</h6>
-    <div class="row docs-example">
-      <ul>
-        <li>TBD</li>
-      </ul>
-  </div>
-</div>
 
     <!-- About -->
     <div class="docs-section" id="about">
-      <h6 class="docs-header">About</h6>
-      <div class="row docs-example">
-        <ul>
-          <li>Name - Kamalchand Ganeshmal Malu</li>
-          <li>Age - 54 years old</li>
-          <li>Gender - Male</li>
-          <li>Height - 5 feet 10 inches</li>
-          <li>Weight - 76 kilograms</li>
-          <li>Body Mass Index (BMI) - 24.7</li>
-          <li>Eithinicity - Indian</li>
-          <li>Located - Surat, Gujarat India</li>
-          <li>Contact - 919823043922</li>
-        </ul>
+        <h6 class="docs-header">About</h6>
+        <div class="row docs-example">
+          <ul>
+            <li>Name - Kamalchand Ganeshmal Malu</li>
+            <li>Age - 54 years old</li>
+            <li>Gender - Male</li>
+            <li>Height - 5 feet 10 inches</li>
+            <li>Weight - 76 kilograms</li>
+            <li>Body Mass Index (BMI) - 24.7</li>
+            <li>Eithinicity - Indian</li>
+            <li>Located - Surat, Gujarat India</li>
+            <li>Contact - 919823043922</li>
+          </ul>
+        </div>
     </div>
+
+    <!-- Reports -->
+    <div class="docs-section examples" id="reports">
+      <h6 class="docs-header">Reports</h6>
+      <div class="row example">
+        <a class="example-screenshot-wrapper" target="_blank" href="images/reports/ultrasound.jpeg">
+          <img class="example-screenshot" src="images/reports/ultrasound.jpeg">
+        </a>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">Ultrasound Abdomen and Pelvis</h6>
+          <p class="example-description"><strong>Gall bladder</strong> is <em>contracted</em>. <strong>Bladder</strong> is <em>partially distended</em>, normal. Liver, Pancreas, Spleen, Right Kidney, Left Kidney appear normal in size. Prostate is normal in volume. Bowel loops are normal in caliber.</p>
+          <p class="example-description"><strong>Opinion - GRADE I FATTY LIVER</strong></p>
+        </div>
+      </div>
+      <div class="row example">
+        <div class="example-screenshot-wrapper">
+          <div class="example-screenshot coming-soon"></div>
+        </div>
+        <div class="one-half offset-by-one-half column">
+          <h6 class="example-header">More Coming Soon!</h6>
+          <p class="example-description">More reports will be added to help anyone get started or more familiar with how Patient File works. The goal is education. If you're more interested in real, live reports, I'll be creating a "Live Patient History" soon!</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 
 
